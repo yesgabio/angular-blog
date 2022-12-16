@@ -21,6 +21,7 @@
 }
 
 .small-text-card-text{
+  display: flex;
   color: rgb(58, 58, 58);
   margin: 10px;
   font-size: 11px;
@@ -58,8 +59,4 @@ a:hover{color: rgb(192, 192, 192);}
   margin-left: -25vh;
 }
 
-.small-text-card-ass > p{
-  font-size: 10px;
-  margin-left: -25vh;
-}
 }

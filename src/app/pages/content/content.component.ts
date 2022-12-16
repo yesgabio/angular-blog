@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
@@ -8,6 +8,15 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
+
+  @Input()
+  id: string = ""
+  @Input()
+  photoCover: string = ""
+  @Input()
+  contentTitle: string = ""
+  @Input()
+  contentDescription: string = ""
 
   constructor(
     private route: ActivatedRoute

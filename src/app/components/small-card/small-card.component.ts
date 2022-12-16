@@ -8,6 +8,8 @@ import { OnInit } from '@angular/core';
 })
 export class SmallCardComponent implements OnInit {
   @Input()
+  id: string = ""
+  @Input()
   dayPost: string = ""
   @Input()
   photoCover: string = ""
