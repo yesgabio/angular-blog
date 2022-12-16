@@ -1,17 +1,17 @@
 <div class="big-card-class">
   <div class="big-card-first-text">
-    <h4>Porto Alegre | RS - Brazil & 15/12/2022</h4>
+    <h4>{{ dayPost }}</h4>
   </div>
   <div class="big-card-photo">
-    <img src="https://i0.wp.com/live.staticflickr.com/65535/49668323113_aa050fbbb6_b.jpg?resize=1024%2C683&ssl=1" alt="">
+    <img src="{{ photoCover }}" alt="">
   </div>
-  <a href="#">
+  <a [routerLink]="['content', id]">
     <div class="big-card-title">
-      <h1>Começando no Angular</h1>
+      <h1>{{ cardTitle }}</h1>
     </div>
   </a>
   <div class="big-card-text">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos nobis fugit ipsa fuga voluptatum officiis perferendis, quas facere optio explicabo distinctio temporibus illum corrupti modi ullam? Quam non incidunt esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, esse eaque. Ipsum sit numquam qui architecto facilis repudiandae? Illum repudiandae alias est quidem deserunt distinctio ullam necessitatibus magni totam quam?</p>
+    <p>{{ cardText }}</p>
   </div>
   <div class="end-page"></div>
 </div>

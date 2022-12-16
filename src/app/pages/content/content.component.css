@@ -1,0 +1,70 @@
+.content-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-img > img {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+}
+
+.content-img {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content-text{
+  margin: 20px;
+}
+
+button {
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  border: none;
+}
+
+/* EFEITOS DE BOTÃO: */
+
+button:focus,
+button:hover {
+  color: rgb(165, 163, 161);
+}
+
+button:focus:after,
+button:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+button:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(165, 163, 161);
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
+.content-back {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 20px;
+}

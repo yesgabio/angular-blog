@@ -1,0 +1,45 @@
+@media screen and (max-width:400px){
+
+*{
+  background-color: #f0f0f0;
+}
+
+.nav-class{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+p{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+nav, ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+li{
+  margin: 10px;
+}
+
+.nav-menu li {
+  text-decoration: none;
+  font-size: 8px;
+}
+
+
+.nav-social a {
+  text-decoration: none;
+  font-size: medium;
+}
+.nav-social a:link{color: black;}
+.nav-social a:visited{color:black;}
+.nav-social a:hover{color: rgb(180, 180, 180);}
+
+i{
+  font-size: 10px;
+}
+}

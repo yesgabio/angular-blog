@@ -1,0 +1,27 @@
+@media screen and (max-width:400px){
+
+*{
+  background-image: url(https://i.pinimg.com/280x280_RS/0d/be/4b/0dbe4b462dcd3018b59c2fc9e642a6ac.jpg);
+  background-attachment: fixed;
+  background-blend-mode: luminosity;
+  background-repeat: no-repeat;
+  height: 120px;
+}
+
+.menu-title{
+  display: flex;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(58, 58, 58);
+}
+
+p{
+  font-size: 10px;
+  color: #b3aeae;
+  margin-left: 45vh;
+}
+}
