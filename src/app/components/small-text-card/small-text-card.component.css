@@ -1,6 +1,4 @@
 .small-text-card-class{
-  border-left: solid 1px black;
-  border-right: solid 1px black;
   width: 200px;
   display: flex;
   flex-direction: column;
